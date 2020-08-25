@@ -3,7 +3,6 @@ from clientes.serializers import ClienteSerializer
 from clientes.models import Cliente
 
 class ClientesViewSet(viewsets.ModelViewSet):
-    """Listando clientes"""
+    """Listando todos os clientes"""
     queryset = Cliente.objects.all()
     serializer_class = ClienteSerializer
-
