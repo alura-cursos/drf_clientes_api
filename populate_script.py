@@ -24,4 +24,3 @@ def criando_pessoas(quantidade_de_pessoas):
         p.save()
 
 criando_pessoas(50)
-print('Sucesso!')
